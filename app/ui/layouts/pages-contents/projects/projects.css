@@ -1,0 +1,114 @@
+.projects-section .projects_container .projects_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.projects-section .projects_container .projects_content .sub_title,
+.projects-section .projects_container .projects_content .projects_section_title {
+  text-align: center;
+}
+.projects-section .projects_container .projects_content .sub_title {
+  width: 50%;
+  margin: 0 auto;
+  color: #5f5f5f;
+}
+.projects-section .projects_container .projects_content .projects_chields {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield2 {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #f8b160 !important;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield2 .project_desc .sub-title {
+  color: #5f5f5f !important;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield_project {
+  padding: 20px 30px;
+  display: flex;
+  background-color: #f0f0f0;
+  border-radius: 2rem;
+  justify-content: space-between;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield_project .project_pic {
+  overflow: hidden;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield_project .project_pic img {
+  border-radius: 1.5rem;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 500px;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc .sub-title {
+  font-size: 20px;
+  color: #525252;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc .title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc .desc {
+  color: #525252;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc .view_call-action {
+  display: flex;
+  gap: 10px;
+  font-weight: 400;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc .view_call-action:hover {
+  color: #ff9a27;
+}
+
+@media (max-width: 530px) {
+  .projects-section .projects_container .projects_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .projects-section .projects_container .projects_content .sub_title {
+    width: 100%;
+  }
+  .projects-section .projects_container .projects_content .projects_chields {
+    gap: 30px;
+  }
+  .projects-section .projects_container .projects_content .projects_chields .chield2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #f8b160 !important;
+  }
+  .projects-section .projects_container .projects_content .projects_chields .chield2 .project_desc .sub-title {
+    color: #5f5f5f !important;
+  }
+  .projects-section .projects_container .projects_content .projects_chields .chield_project {
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 1rem;
+  }
+  .projects-section .projects_container .projects_content .projects_chields .chield_project .project_pic img {
+    border-radius: 1rem;
+  }
+  .projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc .sub-title {
+    font-size: 18px;
+  }
+  .projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc .title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .projects-section .projects_container .projects_content .projects_chields .chield_project .project_desc .desc {
+    text-align: justify;
+  }
+}/*# sourceMappingURL=projects.css.map */

@@ -1,0 +1,44 @@
+.side {
+  background-color: #ffae00;
+  padding: 20px 0;
+}
+.side .side_container .side_content .chields {
+  display: flex;
+  justify-content: space-between;
+}
+.side .side_container .side_content .chields .chield {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  position: relative;
+}
+.side .side_container .side_content .chields .rakuten::after {
+  position: absolute;
+  content: "";
+  padding: 2px;
+  background-color: #fff;
+  width: 50%;
+  bottom: 5px;
+}
+
+@media (max-width: 530px) {
+  .side {
+    background-color: #ffae00;
+    padding: 10px 0;
+  }
+  .side .side_container .side_content .chields .chield {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .side .side_container .side_content .chields .rakuten::after {
+    position: absolute;
+    content: "";
+    padding: 1px;
+    background-color: #fff;
+    width: 50%;
+    bottom: 0px;
+  }
+}/*# sourceMappingURL=side.css.map */

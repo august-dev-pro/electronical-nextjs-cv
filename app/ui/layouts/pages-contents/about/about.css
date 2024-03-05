@@ -1,0 +1,82 @@
+.about-section .about_container .about_content {
+  display: flex;
+  justify-content: space-between;
+}
+.about-section .about_container .about_content .picture {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  border-radius: 74% 26% 36% 64%/44% 56% 44% 56%;
+  background-color: #ffae00;
+}
+.about-section .about_container .about_content .picture img {
+  max-width: 100%;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about-section .about_container .about_content .about_description {
+  width: 500px;
+  font-size: 18px;
+}
+.about-section .about_container .about_content .about_description .about_desc_content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.about-section .about_container .about_content .about_description .about_desc_content .desc_content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-weight: 300;
+  text-align: justify;
+}
+.about-section .about_container .about_content .about_description .about_desc_content .call-actions {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.about-section .about_container .about_content .about_description .about_desc_content .call-actions .follow_call_action {
+  display: flex;
+  gap: 30px;
+}
+.about-section .about_container .about_content .about_description .about_desc_content .call-actions .follow_call_action .links {
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 530px) {
+  .about-section .about_container .about_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-section .about_container .about_content .picture {
+    width: 90%;
+    height: 300px;
+  }
+  .about-section .about_container .about_content .picture img {
+    max-height: 300px;
+  }
+  .about-section .about_container .about_content .about_description {
+    width: 100%;
+    font-size: 17px;
+  }
+  .about-section .about_container .about_content .about_description .about_desc_content {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .about-section .about_container .about_content .about_description .about_desc_content .desc_content {
+    gap: 10px;
+  }
+  .about-section .about_container .about_content .about_description .about_desc_content .call-actions {
+    gap: 20px;
+    align-items: center;
+  }
+  .about-section .about_container .about_content .about_description .about_desc_content .call-actions .follow_call_action {
+    gap: 15px;
+  }
+  .about-section .about_container .about_content .about_description .about_desc_content .call-actions .follow_call_action .links {
+    gap: 15px;
+  }
+}/*# sourceMappingURL=about.css.map */

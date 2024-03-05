@@ -39,39 +39,7 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -83,25 +51,91 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: "kanit", sans-serif;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media (max-width: 390px) {
+  html,
+  body {
+    font-size: 16px;
+  }
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+/* button */
+button,
+.btn {
+  padding: 8px 20px;
+  border: 1px solid #000;
+  width: fit-content;
+  height: min-content;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-radius: 2rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* container */
+.container {
+  padding: 0 70px;
+}
+
+.icon {
+  width: 25px;
+  cursor: pointer;
+}
+.icon:hover {
+  color: orangered;
+}
+.section {
+  padding: 50px 0;
+}
+.section_title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.section_description {
+  color: #666666;
+}
+@media (max-width: 420px) {
+  .container {
+    /*   padding: 0 3%; */
+  }
+
+  .section {
+    padding: 30px 0;
+  }
+  .section_title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 530px) {
+  .container {
+    padding: 0 5%;
+  }
+
+  /* button */
+  button,
+  .btn {
+    padding: 5px 15px;
   }
 }

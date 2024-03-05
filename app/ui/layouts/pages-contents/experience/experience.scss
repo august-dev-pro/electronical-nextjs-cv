@@ -1,0 +1,183 @@
+.experience-section {
+    .expereience_container {
+        .experience_content {
+            display: flex;
+            justify-content: space-between;
+
+            .exp_desc_block {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                text-align: justify;
+            }
+
+            .exps_block {
+                .experiences {
+
+                    .experience {
+                        display: flex;
+                        gap: 30px;
+
+                        .do_date {
+                            width: 177px;
+                            height: fit-content;
+                            text-align: right;
+                        }
+
+                        .exp_description {
+                            width: 600px;
+                            border-left: 3px solid #cccccc;
+                            padding-left: 50px;
+                            padding-bottom: 25px;
+
+
+                            .title {
+                                display: flex;
+                                align-items: center;
+                                position: relative;
+
+                                .label {
+                                    font-size: 25px;
+                                    font-weight: 500;
+                                }
+
+                                .before {
+                                    border-radius: 50%;
+                                    height: 22px;
+                                    width: 22px;
+                                    content: "";
+                                    background-color: #ff9900;
+                                    position: absolute;
+                                    left: -63.5px;
+                                }
+                            }
+
+
+
+                            .desc_content {
+                                padding: 10px 0;
+                                text-align: justify;
+                            }
+                        }
+                    }
+
+                    &:nth-child(1) {
+                        .exp_description {
+                            border-top-left-radius: 15px;
+                        }
+
+                    }
+
+                    &:nth-child(3) {
+                        .exp_description {
+                            padding-bottom: 0;
+
+                            .desc_content {
+                                padding-bottom: 0;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .experience-section {
+        .expereience_container {
+            .experience_content {
+                flex-direction: column;
+                gap: 20px;
+
+                .exp_desc_block {
+                    gap: 10px;
+                }
+
+                .exps_block {
+                    .experiences {
+
+                        .experience {
+                            display: flex;
+                            gap: 20px;
+
+                            .do_date {
+                                width: 150px;
+
+                                text-align: left;
+                                font-size: 15px;
+                            }
+
+                            .exp_description {
+                                width: 100%;
+                                border-left: 2px solid #cccccc;
+                                padding-left: 20px;
+                                padding-bottom: 25px;
+
+
+                                .title {
+                                    .label {
+                                        font-size: 19px;
+                                    }
+
+                                    .before {
+                                        left: -31px;
+                                    }
+                                }
+
+
+                                .desc_content {
+                                    padding: 10px 0;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .experience-section {
+        .expereience_container {
+            .experience_content {
+                .exps_block {
+                    .experiences {
+
+                        .experience {
+
+                            .do_date {
+                                width: 100px;
+
+                                text-align: left;
+                                font-size: 14px;
+                            }
+
+                            .exp_description {
+
+                                .title {
+                                    .label {
+                                        font-size: 17px;
+                                    }
+
+                                    .before {
+                                        left: -31px;
+                                    }
+                                }
+
+
+                                .desc_content {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

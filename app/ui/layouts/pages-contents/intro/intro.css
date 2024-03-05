@@ -1,0 +1,122 @@
+.intro-section {
+  padding: 30px 0;
+  height: 500px;
+}
+.intro-section .intro_container {
+  height: 100%;
+}
+.intro-section .intro_container .intro_content {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  height: 100%;
+}
+.intro-section .intro_container .intro_content .intro_profil-intro_desc {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 500px;
+}
+.intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_desc .hello-text {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 50px;
+}
+.intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_desc .des_text {
+  font-size: 20px;
+  color: #424242;
+}
+.intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_desc .desc_call-actions .get_start_btn {
+  color: #fff;
+  background-color: #000;
+}
+.intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_profil {
+  position: absolute;
+  right: 0;
+  background-color: #ffae00;
+  border-radius: 32% 68% 43% 57%/79% 0% 100% 21%;
+}
+.intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_profil img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.intro-section .intro_container .intro_content .chiffres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro-section .intro_container .intro_content .chiffres .chield-chiffre {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.intro-section .intro_container .intro_content .chiffres .chield-chiffre .count {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.intro-section .intro_container .intro_content .chiffres .chield-chiffre .label {
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 530px) {
+  .intro-section {
+    height: 350px;
+  }
+  .intro-section .intro_container .intro_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .intro-section .intro_container .intro_content .intro_profil-intro_desc {
+    display: grid;
+    grid-template-columns: 65% 30%;
+  }
+  .intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_desc {
+    gap: 10px;
+    width: 100%;
+  }
+  .intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_desc .hello-text {
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_desc .des_text {
+    font-size: 15px;
+  }
+  .intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_profil {
+    height: 200px;
+    width: 35%;
+  }
+  .intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_profil img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+  }
+  .intro-section .intro_container .intro_content .chiffres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .intro-section .intro_container .intro_content .chiffres .chield-chiffre {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .intro-section .intro_container .intro_content .chiffres .chield-chiffre .count {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .intro-section .intro_container .intro_content .chiffres .chield-chiffre .label {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=intro.css.map */

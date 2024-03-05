@@ -1,0 +1,185 @@
+.contact-section {
+    background-color: #ff91001f;
+
+    .contact_container {
+        .contact_content {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            .title_block {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .info_block {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+                .info_block_1 {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .site_links {
+                        display: flex;
+                        gap: 30px;
+                        font-weight: 400;
+
+
+                        .link:hover {
+                            color: orangered;
+                        }
+
+                        .link {
+                            transition: all .2s;
+                        }
+                    }
+
+                    .contact_info {
+                        display: flex;
+                        gap: 30px;
+                    }
+                }
+
+                .info_block_2 {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .maker_name {
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+
+                    .copyright {
+                        display: flex;
+                        gap: 5px;
+                        align-items: center;
+                    }
+
+                    .follow_link {
+                        display: flex;
+                        gap: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .contact-section {
+        background-color: #ff91001f;
+
+        .contact_container {
+            .contact_content {
+                gap: 30px;
+
+                .title_block {
+                    flex-direction: column;
+                }
+
+                .info_block {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+
+                    .info_block_1 {
+                        flex-direction: column;
+                        gap: 20px;
+
+                        .site_links {
+                            justify-content: space-between;
+                            gap: 0;
+                        }
+
+                        .contact_info {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            gap: 5px;
+
+                            .slash {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .info_block_2 {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                        //justify-content: space-between;
+
+                        .maker_name {
+                            font-size: 18px;
+                            font-weight: 500;
+                        }
+
+                        .copyright {
+                            gap: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .contact-section {
+        .contact_container {
+            .contact_content {
+                gap: 30px;
+
+                .info_block {
+                    gap: 10px;
+
+                    .info_block_1 {
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .site_links {
+                            font-size: 15px;
+                        }
+                    }
+
+                    .info_block_2 {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                        //justify-content: space-between;
+
+                        .maker_name {
+                            font-size: 20px;
+                            font-weight: 500;
+                        }
+
+                        .copyright {
+                            display: flex;
+                            gap: 5px;
+                            align-items: center;
+
+                            .icon {
+                                width: 20px;
+                            }
+                        }
+
+                        .follow_link {
+                            display: flex;
+                            justify-content: space-between;
+                            gap: 30px;
+
+                            .icon {
+                                width: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

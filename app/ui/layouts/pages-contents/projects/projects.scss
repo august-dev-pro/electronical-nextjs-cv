@@ -1,0 +1,159 @@
+.projects-section {
+    .projects_container {
+        .projects_content {
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .sub_title,
+            .projects_section_title {
+                text-align: center;
+            }
+
+            .sub_title {
+                width: 50%;
+                margin: 0 auto;
+                color: #5f5f5f;
+            }
+
+            .projects_chields {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                .chield2 {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    background-color: #f8b160 !important;
+
+                    .project_desc {
+                        .sub-title {
+                            color: #5f5f5f !important;
+                        }
+                    }
+                }
+
+                .chield_project {
+                    padding: 20px 30px;
+                    display: flex;
+                    background-color: #f0f0f0;
+                    border-radius: 2rem;
+                    justify-content: space-between;
+
+                    .project_pic {
+                        img {
+                            border-radius: 1.5rem;
+                        }
+
+                        overflow: hidden;
+                    }
+
+                    .project_desc {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 20px;
+                        width: 500px;
+
+                        .sub-title {
+                            font-size: 20px;
+                            color: #525252;
+                        }
+
+                        .title {
+                            font-size: 40px;
+                            font-weight: 600;
+                        }
+
+                        .desc {
+                            color: #525252;
+                        }
+
+                        .view_call-action {
+                            display: flex;
+                            gap: 10px;
+                            font-weight: 400;
+                            width: fit-content;
+
+                            //align-items: center;
+                            &:hover {
+                                color: #ff9a27;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .projects-section {
+        .projects_container {
+            .projects_content {
+
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .sub_title {
+                    width: 100%;
+
+                }
+
+                .projects_chields {
+                    gap: 30px;
+
+                    .chield2 {
+                        display: flex;
+                        flex-direction: row-reverse;
+                        background-color: #f8b160 !important;
+
+                        .project_desc {
+                            .sub-title {
+                                color: #5f5f5f !important;
+                            }
+                        }
+                    }
+
+                    .chield_project {
+                        padding: 10px;
+                        flex-direction: column;
+                        border-radius: 1rem;
+
+                        .project_pic {
+                            img {
+                                border-radius: 1rem;
+                            }
+                        }
+
+                        .project_desc {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            width: 100%;
+
+                            .sub-title {
+                                font-size: 18px;
+                            }
+
+                            .title {
+                                font-size: 20px;
+                                font-weight: 500;
+                            }
+
+                            .desc {
+                                text-align: justify;
+                            }
+
+                            .view_call-action {}
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

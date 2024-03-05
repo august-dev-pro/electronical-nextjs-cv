@@ -1,0 +1,142 @@
+.contact-section {
+  background-color: rgba(255, 145, 0, 0.1215686275);
+}
+.contact-section .contact_container .contact_content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact-section .contact_container .contact_content .title_block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-section .contact_container .contact_content .info_block {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.contact-section .contact_container .contact_content .info_block .info_block_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-section .contact_container .contact_content .info_block .info_block_1 .site_links {
+  display: flex;
+  gap: 30px;
+  font-weight: 400;
+}
+.contact-section .contact_container .contact_content .info_block .info_block_1 .site_links .link:hover {
+  color: orangered;
+}
+.contact-section .contact_container .contact_content .info_block .info_block_1 .site_links .link {
+  transition: all 0.2s;
+}
+.contact-section .contact_container .contact_content .info_block .info_block_1 .contact_info {
+  display: flex;
+  gap: 30px;
+}
+.contact-section .contact_container .contact_content .info_block .info_block_2 {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-section .contact_container .contact_content .info_block .info_block_2 .maker_name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.contact-section .contact_container .contact_content .info_block .info_block_2 .copyright {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.contact-section .contact_container .contact_content .info_block .info_block_2 .follow_link {
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 530px) {
+  .contact-section {
+    background-color: rgba(255, 145, 0, 0.1215686275);
+  }
+  .contact-section .contact_container .contact_content {
+    gap: 30px;
+  }
+  .contact-section .contact_container .contact_content .title_block {
+    flex-direction: column;
+  }
+  .contact-section .contact_container .contact_content .info_block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_1 .site_links {
+    justify-content: space-between;
+    gap: 0;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_1 .contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_1 .contact_info .slash {
+    display: none;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_2 .maker_name {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_2 .copyright {
+    gap: 5px;
+  }
+}
+@media (max-width: 390px) {
+  .contact-section .contact_container .contact_content {
+    gap: 30px;
+  }
+  .contact-section .contact_container .contact_content .info_block {
+    gap: 10px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_1 .site_links {
+    font-size: 15px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_2 .maker_name {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_2 .copyright {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_2 .copyright .icon {
+    width: 20px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_2 .follow_link {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .contact-section .contact_container .contact_content .info_block .info_block_2 .follow_link .icon {
+    width: 20px;
+  }
+}/*# sourceMappingURL=contact.css.map */
