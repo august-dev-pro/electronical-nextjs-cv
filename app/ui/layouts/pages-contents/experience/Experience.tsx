@@ -3,7 +3,7 @@ import "./experience.css";
 
 const Experience = () => {
   return (
-    <div className="experience-section section">
+    <div className="experience-section section" id="experience">
       <div className="expereience_container container">
         <div className="experience_content content">
           <div className="exp_desc_block">

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 const Projects = () => {
   return (
-    <div className="projects-section section">
+    <div className="projects-section section" id="portfolio">
       <div className="projects_container container">
         <div className="projects_content content">
           <div className="section_title projects_section_title">Projects</div>

@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const Contact = () => {
   return (
-    <div className="contact-section section">
+    <div className="contact-section section" id="contact">
       <div className="contact_container container">
         <div className="contact_content content">
           <div className="title_block">
@@ -26,7 +26,7 @@ const Contact = () => {
                 <a href="#about" className="link">
                   about
                 </a>
-                <a href="#projects" className="link">
+                <a href="#portfolio" className="link">
                   projects
                 </a>
                 <a href="#experience" className="link">
@@ -39,7 +39,7 @@ const Contact = () => {
               <div className="contact_info">
                 <div className="phone">phone: +255 057 477 588 9</div>
                 <div className="slash">|</div>
-                <a href="" className="mail">
+                <a href="#" className="mail">
                   email: augustinselete01@gmail.com
                 </a>
               </div>

@@ -35,6 +35,9 @@
   color: #fff;
   background-color: #000;
 }
+.intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_desc .desc_call-actions .get_start_btn:hover {
+  background-color: #ffae00;
+}
 .intro-section .intro_container .intro_content .intro_profil-intro_desc .intro_profil {
   position: absolute;
   right: 0;

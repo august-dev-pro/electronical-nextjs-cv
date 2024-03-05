@@ -13,19 +13,19 @@ const Header = () => {
           </div>
           <nav className="nav">
             <div className="nav_links">
-              <a href="#" className="chield">
+              <a href="#home" className="chield link">
                 <div className="label">home</div>
               </a>
-              <a href="#" className="chield">
+              <a href="#about" className="chield link">
                 <div className="label">about</div>
               </a>
-              <a href="#" className="chield">
+              <a href="#experience" className="chield link">
                 <div className="label">Services</div>
               </a>
-              <a href="#" className="chield">
+              <a href="#portfolio" className="chield link">
                 <div className="label">portfolio</div>
               </a>
-              <a href="#" className="chield">
+              <a href="#contact" className="chield link">
                 <div className="label">contact</div>
               </a>
             </div>
