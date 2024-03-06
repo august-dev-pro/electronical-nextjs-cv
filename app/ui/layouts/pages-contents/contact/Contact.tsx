@@ -14,8 +14,8 @@ const Contact = () => {
       <div className="contact_container container">
         <div className="contact_content content">
           <div className="title_block">
-            <div className="section_title">let's work together</div>
-            <div className="talk_btn btn">let's talk</div>
+            <div className="section_title">let&apos;s work together</div>
+            <div className="talk_btn btn">let&apos;s talk</div>
           </div>
           <div className="info_block">
             <div className="info_block_1">

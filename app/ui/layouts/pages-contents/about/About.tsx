@@ -22,13 +22,13 @@ const About = () => {
               <div className="section_title">About Me</div>
               <div className="desc_content">
                 <div className="text text1">
-                  Hello, I'm Robert, a dedicated UI/UX designer with a passion
-                  for creating digital experiences that not only lock beautiful
-                  but also function seamlesssly.
+                  Hello, I&apos;m Robert, a dedicated UI/UX designer with a
+                  passion for creating digital experiences that not only lock
+                  beautiful but also function seamlesssly.
                 </div>
                 <div className="text text2">
-                  my journey in the world of disign stared 2018 Since, I've been
-                  on an existing quest to craft inovative and user-centered
+                  my journey in the world of disign stared 2018 Since, I&apos;ve
+                  been on an existing quest to craft inovative and user-centered
                   solutions that make a difference.
                 </div>
 
