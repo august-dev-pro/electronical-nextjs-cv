@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import Image from "next/image";
 const Intro = () => {
   return (
     <div className="intro-section section" id="home">
@@ -19,9 +20,11 @@ const Intro = () => {
               </div>
             </div>
             <div className="intro_profil">
-              <img
-                src="../../../../../images/intro_profil.png"
+              <Image
+                src="/images/intro_profil.png"
                 alt="intro_profil"
+                width={500}
+                height={500}
               />
             </div>
           </div>

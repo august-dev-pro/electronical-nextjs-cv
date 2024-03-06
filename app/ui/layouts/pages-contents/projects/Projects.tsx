@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 const Projects = () => {
   return (
     <div className="projects-section section" id="portfolio">
@@ -17,9 +18,11 @@ const Projects = () => {
             <div className="projects_chields">
               <div className="chield_project">
                 <div className="project_pic">
-                  <img
-                    src="../../../../../images/project1.png"
+                  <Image
+                    src="/images/project1.png"
                     alt="project_pic"
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className="project_desc">
@@ -39,9 +42,11 @@ const Projects = () => {
               </div>
               <div className="chield2 chield_project">
                 <div className="project_pic">
-                  <img
-                    src="../../../../../images/project2.png"
+                  <Image
+                    src="/images/project2.png"
                     alt="project_pic"
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className="project_desc">
@@ -61,9 +66,11 @@ const Projects = () => {
               </div>
               <div className="chield_project">
                 <div className="project_pic">
-                  <img
-                    src="../../../../../images/project3.png"
+                  <Image
+                    src="/images/project3.png"
                     alt="project_pic"
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className="project_desc">

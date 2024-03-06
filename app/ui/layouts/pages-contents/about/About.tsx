@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./about.css";
 import React from "react";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -9,7 +10,12 @@ const About = () => {
       <div className="about_container container">
         <div className="about_content content">
           <div className="picture">
-            <img src="../../../../../images/about_pic.png" alt="about_pic" />
+            <Image
+              src={"/images/about_pic.png"}
+              width={500}
+              height={500}
+              alt="about_pic"
+            />
           </div>
           <div className="about_description">
             <div className="about_desc_content">
