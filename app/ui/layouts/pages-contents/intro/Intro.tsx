@@ -3,7 +3,7 @@ import "./intro.css";
 import Image from "next/image";
 const Intro = () => {
   return (
-    <div className="intro-section section" id="home">
+    <div className="intro-section section">
       <div className="intro_container container">
         <div className="intro_content content">
           <div className="intro_profil-intro_desc">

@@ -44,7 +44,7 @@
                 .nav_contact_btn {}
             }
 
-            .menu {
+            .menu_deroule {
                 display: none;
             }
         }
@@ -60,6 +60,8 @@
             .header_content {
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
+                position: relative;
 
                 .logo-insign {
                     display: flex;
@@ -76,12 +78,69 @@
                     display: none;
                 }
 
-                .menu {
+                .menu_deroule {
                     display: flex;
-                    width: 18px;
                     align-items: center;
-                    cursor: pointer;
+                    position: relative;
+                    height: fit-content;
+                    background-color: #ffae00;
+                    transition: all .3s;
+
+                    .menu {
+                        display: flex;
+                        width: 100%;
+                        align-items: center;
+                        cursor: pointer;
+                        //padding: 5px 20px;
+                        transition: all .3s;
+                    }
+
+                    .open {
+                        display: block;
+                    }
+
+                    .nav {
+                        transition: all .3s;
+                        position: absolute;
+                        right: 0;
+                        top: 100%;
+                        z-index: 1000;
+                        //text-align: right;
+                        background-color: inherit;
+                        padding: 10px 20px;
+                        padding-top: 0;
+                        box-shadow: 0px 8px 5px 3px #9b9898;
+                        width: 232px;
+
+                    }
                 }
+
+                .menu_deroule_nav_open {
+                    border-top-right-radius: .5rem;
+                    border-top-left-radius: .5rem;
+                    background-color: #fff;
+                    width: 101px;
+                    display: flex;
+                    align-items: center;
+                    box-shadow: 0px 8px 5px 3px #9b9898;
+                    width: 232px;
+                    position: absolute;
+                    right: 0;
+                    transition: all .3s;
+                    //height: 200px;
+
+                    .menu {
+                        justify-content: right;
+                        padding: 10px 10px;
+                        padding-bottom: 0;
+
+
+                    }
+
+                    //width: max-content;
+                }
+
+
             }
         }
     }
